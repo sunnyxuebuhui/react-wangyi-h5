@@ -1,0 +1,23 @@
+.ul_wrapper {
+  white-space: nowrap;
+  display: flex;
+  padding: 0 .15rem;
+  height: .44rem;
+  box-sizing: border-box;
+  align-items: center;
+  background-color: #fff;
+}
+.ul_wrapper li {
+  position: relative;
+  height: .3rem;
+  line-height: .3rem;
+  font-size: .15rem;
+  padding: 0 .1rem;
+  white-space: nowrap;
+  transition: all .5s;
+  box-sizing: border-box;
+}
+li.active {
+  color: #b4282d;
+  border-bottom: .02rem solid #b4282d;
+}

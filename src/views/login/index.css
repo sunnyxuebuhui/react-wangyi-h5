@@ -1,0 +1,32 @@
+.login_wrapper {
+  position: fixed;
+  height: 100%;
+  background: #F2F5F4;
+}
+.login_wrapper .img {
+  margin: 1.5rem 25% 1rem;
+}
+.login_wrapper .btn {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.login_wrapper .phone {
+  width: 90%;
+  height: .4rem;
+  line-height: .4rem;;
+  color: #fff;
+  text-align: center;
+  background-color: #b4282d;
+  border: 1px solid #b4282d;
+}
+.login_wrapper .emaill {
+  margin: .15rem 0;
+  width: 90%;
+  height: .4rem;
+  line-height: .4rem;;
+  color: #b4282d;
+  text-align: center;
+  background-color: #F2F5F4;
+  border: 1px solid #b4282d;
+}

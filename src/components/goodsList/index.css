@@ -1,0 +1,35 @@
+.goods_wrapper {
+  white-space: nowrap;
+  display: flex;
+  padding: .2rem .15rem;
+  box-sizing: border-box;
+  align-items: center;
+  background-color: #fff;
+}
+.content {
+  width: 1.2rem;
+  margin-right: .15rem;
+  background: #f4f4f4;
+}
+.text {
+  padding-top: .1rem;
+  background-color: #fff;
+}
+.name {
+  font-size: .15rem;
+  color: #333;
+}
+.desc {
+  margin: .1rem 0;
+  font-size: .13rem;
+  color: #7f7f7f;
+}
+.price {
+  font-size: .15rem;
+  color: #b4282d;
+}
+.ell {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}

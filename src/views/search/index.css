@@ -1,0 +1,41 @@
+.header {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  background-color: #efeff4;
+}
+.header > * {
+  flex: 1;
+}
+.header i {
+  flex: 0 0 .3rem;
+  font-size: .18rem;
+  text-align: center;
+}
+.hot {
+  padding: .2rem;
+  margin-top: .2rem;
+  width: 100%;
+  background-color: #fff;
+  box-sizing: border-box;
+}
+h2 {
+  padding-bottom: .16rem;
+  font-size: .16rem;
+  color: #333;
+}
+.hot ul {
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+  box-sizing: border-box;
+}
+.hot li {
+  display: inline-block;
+  margin-right: .1rem;
+  margin-bottom: .12rem;
+  padding: .05rem .14rem;
+  font-size: .12rem;
+  color: #333;
+  border: 1px solid #eee;
+}
