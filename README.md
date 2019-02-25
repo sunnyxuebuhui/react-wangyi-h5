@@ -1,68 +1,50 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# 前言
 
-## Available Scripts
+此项目是基于 react 全家桶 + Ant Design
+git clone https://github.com/sunnyxuebuhui/eact-wangyi-h5.git
+cd eact-wangyi-h5
+npm i
+npm start
 
-In the project directory, you can run:
+# 1. 前端技术
 
-### `npm start`
+## 3.1 主要技术
 
-Runs the app in the development mode.<br>
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+- react： 16.5.2
+- antd： 3.9.3
+- react-router:：4.3.1
+- react-router-dom:：4.3.1
+- redux-immutable: ^4.0.0",
+- webpack： 3.8.1
+- axios：0.18.0
+- immutable: 3.8.2,
+- redux: 4.0.0
+- redux-thunk: 2.3.0
+- styled-components: 4.1.1
+- better-scroll 1.14.1
 
-The page will reload if you make edits.<br>
-You will also see any lint errors in the console.
 
-### `npm test`
+# 2. 功能描述
 
-Launches the test runner in the interactive watch mode.<br>
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## 2.1 已经实现功能
 
-### `npm run build`
+- [x] 首页
+- [x] 登录/注册页面
+- [x] 商品详情
+- [x] 添加购物车动画效果
+- [x] redux处理购物车逻辑
+- [x] 历史搜索
+- [x] 个人中心
+- [x] redux拆分
 
-Builds the app for production to the `build` folder.<br>
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## 2.2 待实现功能
 
-The build is minified and the filenames include the hashes.<br>
-Your app is ready to be deployed!
+- [ ] node+mongodb实现登录注册
+- [ ] 路由重定向
+- [ ] 使用typescript重构
+- [ ] 移动端适配
+- [ ] 升级 webpack 打包处理
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+# 3. 项目搭建
 
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+- 项目是按 antd 推荐的教程来搭建的：[antd 在 create-react-app 中使用](https://ant.design/docs/react/use-with-create-react-app-cn) , 实现了 按需加载组件代码和样式。
